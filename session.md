@@ -132,7 +132,7 @@ To determine if a value is present in the session, you may use the `has` method.
         //
     }
 
-To determine if a value is present in the session, even if its value is `null`, you may use the `exists` method. The `exists` method returns `true` if the value is present:
+To determine if a key is present in the session, even if its value is `null`, you may use the `exists` method. The `exists` method returns `true` if the value is present:
 
     if ($request->session()->exists('users')) {
         //
